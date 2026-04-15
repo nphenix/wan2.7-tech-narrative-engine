@@ -1,0 +1,79 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_5_capability_response",
+  "page_id": "page_5_capability_response",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "capability_response",
+  "diagram_mode": "mapping",
+  "preview_layout": [
+    {
+      "id": "page_5_capability_response_preview_1",
+      "label": "需求理解",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_5_capability_response_preview_2",
+      "label": "编排调度",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_5_capability_response_preview_3",
+      "label": "审阅闸门",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_5_capability_response_preview_4",
+      "label": "自动交付",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "left",
+      "purpose": "问题回应"
+    },
+    {
+      "name": "center",
+      "purpose": "能力"
+    },
+    {
+      "name": "right",
+      "purpose": "结果价值"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "需求理解",
+      "zone": "center",
+      "body": "把自然语言请求转成正式任务边界"
+    },
+    {
+      "title": "编排调度",
+      "zone": "center",
+      "body": "组织 Agent 和 Skill 按顺序执行"
+    },
+    {
+      "title": "审阅闸门",
+      "zone": "center",
+      "body": "把高价值判断留给人工"
+    },
+    {
+      "title": "自动交付",
+      "zone": "center",
+      "body": "把图像、视频和文档装配成正式结果"
+    }
+  ],
+  "elements": []
+}

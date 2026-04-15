@@ -1,0 +1,27 @@
+# 与 common.pipeline.PAGE_DEFINITIONS 中 page_4_six_skill_flow 的 zones 对齐。
+# 画布正文须来自任务目录已定稿；required_labels 为验收概念，勿整表贴图。
+page_id: page_4_six_skill_flow
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: top
+    purpose: 六个 skill 阶段
+    anchor: { x: 60, y: 40, w: 1580, h: 360 }
+  - name: middle
+    purpose: 正式产物
+    anchor: { x: 60, y: 420, w: 1580, h: 220 }
+  - name: bottom
+    purpose: 状态推进与闸门
+    anchor: { x: 60, y: 664, w: 1580, h: 276 }
+required_labels:
+  - intake
+  - strategy
+  - draft
+  - visual_blueprint
+  - visual_generation
+  - video_generation
+  - 正式产物
+  - 状态闸门
+notes: "[勿上屏] 六阶段横向或泳道；中区写正式产物（已定稿表述）；底区闸门与状态。Mermaid 骨架后须加厚。勿把「验收」「required」等字写进图。"

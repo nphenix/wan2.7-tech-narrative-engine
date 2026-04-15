@@ -1,0 +1,127 @@
+{
+  "page_id": "page_7_main_proof",
+  "session_id": "wan27_page_7_main_proof",
+  "execution_mode": "skill_driven_mcp",
+  "preferred_tool": "create_from_mermaid_then_refine",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "layout_template": "main_proof",
+  "diagram_mode": "proof",
+  "visual_goal": "收拢主证据，证明系统真的能跑通。",
+  "must_prove": "以 AI短剧工厂为业务目标层，三层能力为中层，QwenPaw 作为上层工作站化编排承载、AgentScope 作为框架底座、六个项目 skill 作为实现层、Wan2.7 作为外部生成能力，共同构成可运行、可扩展、可复用的生产闭环。",
+  "preferred_structure": "2?3?4?6?7?8?9???",
+  "freestyle_pages": "1?4?10?11",
+  "font_notes": "???????????????????????????????",
+  "zones": [
+    {
+      "name": "center",
+      "purpose": "三核心对象"
+    },
+    {
+      "name": "bottom",
+      "purpose": "闭环与复用"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "QwenPaw",
+      "zone": "center",
+      "body": "工作区级编排与技能装配"
+    },
+    {
+      "title": "Wan2.7",
+      "zone": "center",
+      "body": "多模态生成引擎"
+    },
+    {
+      "title": "AgentScope",
+      "zone": "center",
+      "body": "生态扩展和复用视角"
+    },
+    {
+      "title": "生产闭环",
+      "zone": "bottom",
+      "body": "从任务到图像、视频和文档交付"
+    },
+    {
+      "title": "复用能力",
+      "zone": "bottom",
+      "body": "从单项目扩展到可重复能力"
+    }
+  ],
+  "required_labels": [
+    "QwenPaw",
+    "Wan2.7",
+    "AgentScope",
+    "生产闭环",
+    "复用能力"
+  ],
+  "required_relations": [
+    "QwenPaw -> Wan2.7",
+    "QwenPaw -> AgentScope",
+    "Wan2.7 -> 生产闭环",
+    "AgentScope -> 复用能力"
+  ],
+  "drawing_instructions": [
+    "本页图种：main_proof",
+    "页面目标：以 AI短剧工厂为业务目标层，三层能力为中层，QwenPaw 作为上层工作站化编排承载、AgentScope 作为框架底座、六个项目 skill 作为实现层、Wan2.7 作为外部生成能力，共同构成可运行、可扩展、可复用的生产闭环。",
+    "视觉目标：收拢主证据，证明系统真的能跑通。",
+    "必须保留标签：QwenPaw, Wan2.7, AgentScope, 生产闭环, 复用能力",
+    "中文排版要求：???????????????????????????????",
+    "本页应接近整体架构图，而不是几个概念框。",
+    "顶部保留业务目标，中部是三层能力，底部是 QwenPaw、AgentScope 与技能执行层，右侧引出 Wan2.7。"
+  ],
+  "export_target": "output/blueprints/images/page_7_main_proof.svg",
+  "preview_layout": [
+    {
+      "id": "page_7_main_proof_preview_1",
+      "label": "QwenPaw",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_2",
+      "label": "Wan2.7",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_3",
+      "label": "AgentScope",
+      "x": 860,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_4",
+      "label": "生产闭环",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_5",
+      "label": "复用能力",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "draft_focus_terms": [],
+  "mermaid_path": "output/blueprints/mermaid/page_7_main_proof.mmd",
+  "mermaid_seed": "flowchart LR\n    N1[\"QwenPaw\"]\n    N2[\"Wan2.7\"]\n    N3[\"AgentScope\"]\n    N4[\"生产闭环\"]\n    N5[\"复用能力\"]\n    N1 --> N2\n    N1 --> N3\n    N2 --> N4\n    N3 --> N5\n"
+}

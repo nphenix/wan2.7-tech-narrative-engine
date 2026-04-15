@@ -1,0 +1,121 @@
+{
+  "page_id": "page_9_agentscope_ecosystem_reuse",
+  "session_id": "wan27_page_9_agentscope_ecosystem_reuse",
+  "execution_mode": "skill_driven_mcp",
+  "preferred_tool": "create_from_mermaid_then_refine",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "layout_template": "ecosystem",
+  "diagram_mode": "ecosystem",
+  "visual_goal": "把生态视角接回主线，不削弱 QwenPaw 和 Wan2.7。",
+  "must_prove": "AgentScope 让单点项目延展为生态表达，并承接复用价值。",
+  "preferred_structure": "2?3?4?6?7?8?9???",
+  "freestyle_pages": "1?4?10?11",
+  "font_notes": "???????????????????????????????",
+  "zones": [
+    {
+      "name": "center",
+      "purpose": "AgentScope"
+    },
+    {
+      "name": "left",
+      "purpose": "QwenPaw 连接"
+    },
+    {
+      "name": "right",
+      "purpose": "Wan2.7 连接"
+    },
+    {
+      "name": "bottom",
+      "purpose": "复用价值"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "AgentScope",
+      "zone": "center",
+      "body": "生态对象和扩展视角"
+    },
+    {
+      "title": "QwenPaw 连接",
+      "zone": "left",
+      "body": "工作区级编排和多智能体组织"
+    },
+    {
+      "title": "Wan2.7 连接",
+      "zone": "right",
+      "body": "多模态能力表达和生成牵引"
+    },
+    {
+      "title": "复用价值",
+      "zone": "bottom",
+      "body": "生态传播、教学表达和后续扩展"
+    }
+  ],
+  "required_labels": [
+    "AgentScope",
+    "QwenPaw",
+    "Wan2.7",
+    "复用价值"
+  ],
+  "required_relations": [
+    "QwenPaw -> AgentScope",
+    "Wan2.7 -> AgentScope",
+    "AgentScope -> 生态关系",
+    "AgentScope -> 复用价值"
+  ],
+  "drawing_instructions": [
+    "本页图种：ecosystem",
+    "页面目标：AgentScope 让单点项目延展为生态表达，并承接复用价值。",
+    "视觉目标：把生态视角接回主线，不削弱 QwenPaw 和 Wan2.7。",
+    "必须保留标签：AgentScope, QwenPaw, Wan2.7, 复用价值",
+    "中文排版要求：???????????????????????????????",
+    "以 AgentScope 为中心，连接 QwenPaw 和 Wan2.7，再落到复用价值。",
+    "本页强调生态与复用，不要喧宾夺主变成百科介绍。"
+  ],
+  "export_target": "output/blueprints/images/page_9_agentscope_ecosystem_reuse.svg",
+  "preview_layout": [
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_1",
+      "label": "AgentScope",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_2",
+      "label": "QwenPaw 连接",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_3",
+      "label": "Wan2.7 连接",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_4",
+      "label": "复用价值",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "draft_focus_terms": [],
+  "mermaid_path": "output/blueprints/mermaid/page_9_agentscope_ecosystem_reuse.mmd",
+  "mermaid_seed": "flowchart LR\n    N1[\"AgentScope\"]\n    N2[\"QwenPaw 连接\"]\n    N3[\"Wan2.7 连接\"]\n    N4[\"复用价值\"]\n    N1 --> N4\n"
+}

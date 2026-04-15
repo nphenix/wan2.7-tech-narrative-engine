@@ -1,0 +1,22 @@
+# 与 PAGE_DEFINITIONS 中 page_8_single_page_flow 的 zones 对齐。
+# 画布正文须来自任务目录已定稿；required_labels 为验收概念，勿整表贴图。
+page_id: page_8_single_page_flow
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: center
+    purpose: 单页链路主流程
+    anchor: { x: 60, y: 80, w: 1580, h: 720 }
+  - name: bottom
+    purpose: Wan2.7 介入点说明
+    anchor: { x: 60, y: 820, w: 1580, h: 120 }
+required_labels:
+  - 页面契约
+  - 页面视觉规格
+  - 视觉蓝图
+  - 页面静帧资产
+  - 完整演示视频
+  - 用户核对
+notes: "[勿上屏] center 画已定稿单页主链与三次核对；bottom 写介入点（已定稿）。勿写「center/bottom」或英文 zone 当主标题。"

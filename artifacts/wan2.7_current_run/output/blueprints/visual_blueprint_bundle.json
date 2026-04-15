@@ -1,0 +1,544 @@
+{
+  "render_engine": "skill_driven_excalidraw_mcp",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "page_count": 10,
+  "global_rules": {
+    "visual_goal": "??????",
+    "structure_pages": "2?3?4?6?7?8?9???",
+    "freestyle_pages": "1?4?10?11",
+    "font_notes": "???????????????????????????????"
+  },
+  "pages": [
+    {
+      "page_id": "page_1_opening",
+      "title": "对题页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_1_opening.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_1_opening.json",
+      "scene_path": "output/blueprints/excalidraw/page_1_opening.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_1_opening.svg",
+      "layout_template": "hero_opening",
+      "diagram_mode": "hero",
+      "layout": [
+        {
+          "id": "page_1_opening_preview_1",
+          "label": "主标题",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_1_opening_preview_2",
+          "label": "副标题",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_1_opening_preview_3",
+          "label": "能力底座",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_1_opening_preview_4",
+          "label": "主张",
+          "x": 490,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_1_opening",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp"
+    },
+    {
+      "page_id": "page_2_wan27_lead",
+      "title": "Wan2.7 牵引页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_2_wan27_lead.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_2_wan27_lead.json",
+      "scene_path": "output/blueprints/excalidraw/page_2_wan27_lead.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_2_wan27_lead.svg",
+      "layout_template": "capability_chain",
+      "diagram_mode": "capability_chain",
+      "layout": [
+        {
+          "id": "page_2_wan27_lead_preview_1",
+          "label": "能力入口",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_2_wan27_lead_preview_2",
+          "label": "图像能力",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_2_wan27_lead_preview_3",
+          "label": "视频能力",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_2_wan27_lead_preview_4",
+          "label": "兑现结果",
+          "x": 490,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_2_wan27_lead",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp",
+      "mermaid_path": "output/blueprints/mermaid/page_2_wan27_lead.mmd"
+    },
+    {
+      "page_id": "page_3_copaw_orchestrator",
+      "title": "QwenPaw 编排中枢页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_3_copaw_orchestrator.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_3_copaw_orchestrator.json",
+      "scene_path": "output/blueprints/excalidraw/page_3_copaw_orchestrator.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_3_copaw_orchestrator.svg",
+      "layout_template": "hub_architecture",
+      "diagram_mode": "architecture",
+      "layout": [
+        {
+          "id": "page_3_copaw_orchestrator_preview_1",
+          "label": "用户对话入口",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_2",
+          "label": "QwenPaw 编排层",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_3",
+          "label": "技术 Agent",
+          "x": 860,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_4",
+          "label": "叙事导演 Agent",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_5",
+          "label": "Skill 1",
+          "x": 490,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_6",
+          "label": "人工审阅闸门",
+          "x": 860,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_7",
+          "label": "Skill 2",
+          "x": 120,
+          "y": 560,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_8",
+          "label": "Skill 3",
+          "x": 490,
+          "y": 560,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_3_copaw_orchestrator_preview_9",
+          "label": "产物归档层",
+          "x": 860,
+          "y": 560,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_3_copaw_orchestrator",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp",
+      "mermaid_path": "output/blueprints/mermaid/page_3_copaw_orchestrator.mmd"
+    },
+    {
+      "page_id": "page_4_business_pain",
+      "title": "真实业务痛点页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_4_business_pain.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_4_business_pain.json",
+      "scene_path": "output/blueprints/excalidraw/page_4_business_pain.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_4_business_pain.svg",
+      "layout_template": "pain_map",
+      "diagram_mode": "mapping",
+      "layout": [
+        {
+          "id": "page_4_business_pain_preview_1",
+          "label": "创作不稳",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_4_business_pain_preview_2",
+          "label": "生产不顺",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_4_business_pain_preview_3",
+          "label": "资产难沉淀",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_4_business_pain_preview_4",
+          "label": "后果",
+          "x": 490,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_4_business_pain",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp",
+      "mermaid_path": "output/blueprints/mermaid/page_4_business_pain.mmd"
+    },
+    {
+      "page_id": "page_5_capability_response",
+      "title": "关键能力承接页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_5_capability_response.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_5_capability_response.json",
+      "scene_path": "output/blueprints/excalidraw/page_5_capability_response.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_5_capability_response.svg",
+      "layout_template": "capability_response",
+      "diagram_mode": "mapping",
+      "layout": [
+        {
+          "id": "page_5_capability_response_preview_1",
+          "label": "需求理解",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_5_capability_response_preview_2",
+          "label": "编排调度",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_5_capability_response_preview_3",
+          "label": "审阅闸门",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_5_capability_response_preview_4",
+          "label": "自动交付",
+          "x": 490,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_5_capability_response",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp"
+    },
+    {
+      "page_id": "page_6_layering",
+      "title": "能力分层页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_6_layering.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_6_layering.json",
+      "scene_path": "output/blueprints/excalidraw/page_6_layering.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_6_layering.svg",
+      "layout_template": "three_layer",
+      "diagram_mode": "layering",
+      "layout": [
+        {
+          "id": "page_6_layering_preview_1",
+          "label": "创作中枢",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_6_layering_preview_2",
+          "label": "自动化生产工厂",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_6_layering_preview_3",
+          "label": "知识资产沉淀管理",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_6_layering",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp",
+      "mermaid_path": "output/blueprints/mermaid/page_6_layering.mmd"
+    },
+    {
+      "page_id": "page_7_main_proof",
+      "title": "主证据页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_7_main_proof.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_7_main_proof.json",
+      "scene_path": "output/blueprints/excalidraw/page_7_main_proof.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_7_main_proof.svg",
+      "layout_template": "main_proof",
+      "diagram_mode": "proof",
+      "layout": [
+        {
+          "id": "page_7_main_proof_preview_1",
+          "label": "QwenPaw",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_7_main_proof_preview_2",
+          "label": "Wan2.7",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_7_main_proof_preview_3",
+          "label": "AgentScope",
+          "x": 860,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_7_main_proof_preview_4",
+          "label": "生产闭环",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_7_main_proof_preview_5",
+          "label": "复用能力",
+          "x": 490,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_7_main_proof",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp",
+      "mermaid_path": "output/blueprints/mermaid/page_7_main_proof.mmd"
+    },
+    {
+      "page_id": "page_8_execution_flow",
+      "title": "工作流执行链路页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_8_execution_flow.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_8_execution_flow.json",
+      "scene_path": "output/blueprints/excalidraw/page_8_execution_flow.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_8_execution_flow.svg",
+      "layout_template": "workflow_chain",
+      "diagram_mode": "workflow",
+      "layout": [
+        {
+          "id": "page_8_execution_flow_preview_1",
+          "label": "自然语言任务",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_8_execution_flow_preview_2",
+          "label": "六技能执行链",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_8_execution_flow_preview_3",
+          "label": "人工审阅",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_8_execution_flow",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp",
+      "mermaid_path": "output/blueprints/mermaid/page_8_execution_flow.mmd"
+    },
+    {
+      "page_id": "page_9_agentscope_ecosystem_reuse",
+      "title": "AgentScope 生态与复用页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_9_agentscope_ecosystem_reuse.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_9_agentscope_ecosystem_reuse.json",
+      "scene_path": "output/blueprints/excalidraw/page_9_agentscope_ecosystem_reuse.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_9_agentscope_ecosystem_reuse.svg",
+      "layout_template": "ecosystem",
+      "diagram_mode": "ecosystem",
+      "layout": [
+        {
+          "id": "page_9_agentscope_ecosystem_reuse_preview_1",
+          "label": "AgentScope",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_9_agentscope_ecosystem_reuse_preview_2",
+          "label": "QwenPaw 连接",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_9_agentscope_ecosystem_reuse_preview_3",
+          "label": "Wan2.7 连接",
+          "x": 120,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_9_agentscope_ecosystem_reuse_preview_4",
+          "label": "复用价值",
+          "x": 490,
+          "y": 370,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_9_agentscope_ecosystem_reuse",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp",
+      "mermaid_path": "output/blueprints/mermaid/page_9_agentscope_ecosystem_reuse.mmd"
+    },
+    {
+      "page_id": "page_10_closing",
+      "title": "收束页",
+      "confirmation_status": "approved",
+      "approved_by": "user",
+      "page_doc_path": "output/blueprints/pages/page_10_closing.md",
+      "mcp_request_path": "output/blueprints/mcp_requests/page_10_closing.json",
+      "scene_path": "output/blueprints/excalidraw/page_10_closing.excalidraw.json",
+      "svg_path": "output/blueprints/images/page_10_closing.svg",
+      "layout_template": "closing_manifesto",
+      "diagram_mode": "closing",
+      "layout": [
+        {
+          "id": "page_10_closing_preview_1",
+          "label": "诗句",
+          "x": 120,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "page_10_closing_preview_2",
+          "label": "收束语",
+          "x": 490,
+          "y": 180,
+          "width": 280,
+          "height": 110
+        }
+      ],
+      "session_id": "wan27_page_10_closing",
+      "style_preset": "hand_drawn_excalidraw",
+      "export_status": "exported_svg",
+      "execution_mode": "skill_driven_mcp"
+    }
+  ]
+}

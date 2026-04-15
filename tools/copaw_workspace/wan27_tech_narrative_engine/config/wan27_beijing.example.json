@@ -1,0 +1,17 @@
+{
+  "region": "beijing",
+  "image_endpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+  "video_endpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis",
+  "image_models": [
+    "wan2.7-image",
+    "wan2.7-image-pro"
+  ],
+  "video_model": "wan2.7-i2v",
+  "auth_env": {
+    "dashscope_api_key": "DASHSCOPE_API_KEY"
+  },
+  "notes": [
+    "首版只使用北京地域。",
+    "不要在配置文件中写真实密钥。"
+  ]
+}

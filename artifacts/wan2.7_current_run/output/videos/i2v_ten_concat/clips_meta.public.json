@@ -1,0 +1,71 @@
+[
+  {
+    "page": "page_1_opening.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "0d99b1db-ffaf-4b4d-acce-3d1a726d8664",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_01_page_1_opening.mp4"
+  },
+  {
+    "page": "page_2_wan27_lead.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "6934226d-24d5-4f30-91ec-c55b576bbb11",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_02_page_2_wan27_lead.mp4"
+  },
+  {
+    "page": "page_3_copaw_orchestrator.png",
+    "mode": "ffmpeg_static_fallback",
+    "reason": "i2v_failed_or_moderation",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_03_page_3_copaw_orchestrator_static.mp4"
+  },
+  {
+    "page": "page_4_business_pain.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "a1a53a73-6f25-4f01-9e60-a2c15f6772bb",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_04_page_4_business_pain.mp4"
+  },
+  {
+    "page": "page_5_capability_response.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "dac15bc9-6782-41e5-9d98-df1894792276",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_05_page_5_capability_response.mp4"
+  },
+  {
+    "page": "page_6_layering.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "0ebe8f65-2c0b-4988-974f-0f9ac451b7e3",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_06_page_6_layering.mp4"
+  },
+  {
+    "page": "page_7_main_proof.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "6c359afb-c715-4de9-9965-29ef6965497c",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_07_page_7_main_proof.mp4"
+  },
+  {
+    "page": "page_8_execution_flow.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "2d210d65-b769-473f-a412-1270fdb27a94",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_08_page_8_execution_flow.mp4"
+  },
+  {
+    "page": "page_9_agentscope_ecosystem_reuse.png",
+    "mode": "wan2.7-i2v-minimal",
+    "task_id": "d3ffcc57-c24e-4d03-89bb-7e63fb3e174d",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_09_page_9_agentscope_ecosystem_reuse_minimal.mp4"
+  },
+  {
+    "page": "page_10_closing.png",
+    "mode": "wan2.7-i2v",
+    "task_id": "677aaf70-2b01-4001-b2f9-cf45c9b9f69c",
+    "video_url": "[redacted: expiring OSS URL from DashScope task result]",
+    "clip": "artifacts/wan2.7_current_run/output/videos/i2v_ten_concat/clip_10_page_10_closing.mp4"
+  }
+]

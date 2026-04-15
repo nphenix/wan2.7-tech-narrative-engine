@@ -1,0 +1,88 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_7_main_proof",
+  "page_id": "page_7_main_proof",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "main_proof",
+  "diagram_mode": "proof",
+  "preview_layout": [
+    {
+      "id": "page_7_main_proof_preview_1",
+      "label": "QwenPaw",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_2",
+      "label": "Wan2.7",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_3",
+      "label": "AgentScope",
+      "x": 860,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_4",
+      "label": "生产闭环",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_7_main_proof_preview_5",
+      "label": "复用能力",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "center",
+      "purpose": "三核心对象"
+    },
+    {
+      "name": "bottom",
+      "purpose": "闭环与复用"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "QwenPaw",
+      "zone": "center",
+      "body": "工作区级编排与技能装配"
+    },
+    {
+      "title": "Wan2.7",
+      "zone": "center",
+      "body": "多模态生成引擎"
+    },
+    {
+      "title": "AgentScope",
+      "zone": "center",
+      "body": "生态扩展和复用视角"
+    },
+    {
+      "title": "生产闭环",
+      "zone": "bottom",
+      "body": "从任务到图像、视频和文档交付"
+    },
+    {
+      "title": "复用能力",
+      "zone": "bottom",
+      "body": "从单项目扩展到可重复能力"
+    }
+  ],
+  "elements": []
+}

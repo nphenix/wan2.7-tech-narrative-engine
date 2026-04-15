@@ -1,0 +1,20 @@
+# 与 PAGE_DEFINITIONS 中 page_9_review_gates 的 zones 对齐。
+# 画布正文须来自任务目录已定稿；检查点编号用叙事表述，勿贴「检查点1」式占位若 contracts 有正式名。
+page_id: page_9_review_gates
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: center
+    purpose: 状态流转
+    anchor: { x: 48, y: 80, w: 1180, h: 820 }
+  - name: right
+    purpose: 阻塞原因说明
+    anchor: { x: 1256, y: 80, w: 396, h: 820 }
+required_labels:
+  - 检查点1
+  - 检查点2
+  - 检查点3
+  - 阻塞原因
+notes: "[勿上屏] 主区画状态迁移（已定稿）；侧区写阻塞原因（已定稿）。勿写 pipeline/module_cards 等字进图。"

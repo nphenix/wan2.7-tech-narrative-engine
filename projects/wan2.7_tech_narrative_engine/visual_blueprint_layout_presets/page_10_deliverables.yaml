@@ -1,0 +1,20 @@
+# 与 PAGE_DEFINITIONS 中 page_10_deliverables 的 zones 对齐。
+# 画布正文须来自任务目录已定稿；矩阵内用人话交付物名，勿用文件名或 gate 名凑格。
+page_id: page_10_deliverables
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: top
+    purpose: 交付主张
+    anchor: { x: 80, y: 48, w: 1540, h: 160 }
+  - name: bottom
+    purpose: 交付矩阵
+    anchor: { x: 80, y: 232, w: 1540, h: 700 }
+required_labels:
+  - 最终视频
+  - 可复用项目 skill
+  - 说明文档
+  - 结构化产物
+notes: "[勿上屏] bottom 做矩阵（已定稿交付物与维度）；top 写主张句。勿把「评委可见 vs 团队可复用」当无内容标签条。"

@@ -1,0 +1,49 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_10_closing",
+  "page_id": "page_10_closing",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "closing_manifesto",
+  "diagram_mode": "closing",
+  "preview_layout": [
+    {
+      "id": "page_10_closing_preview_1",
+      "label": "诗句",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_10_closing_preview_2",
+      "label": "收束语",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "hero",
+      "purpose": "诗句和视觉收束"
+    },
+    {
+      "name": "footer",
+      "purpose": "最终口号"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "诗句",
+      "zone": "hero",
+      "body": "湛湛长空，乱云飞渡，吹尽繁红无数。正当年，紫金空铄，万里黄沙无处。沉江望极，狂澜乍起，惊飞一滩鸥鹭。鲜衣怒马少年郎，不负昭华行且知。"
+    },
+    {
+      "title": "收束语",
+      "zone": "footer",
+      "body": "成为 AI 时代的参与者"
+    }
+  ],
+  "elements": []
+}

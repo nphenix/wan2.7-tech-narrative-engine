@@ -1,0 +1,75 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_4_business_pain",
+  "page_id": "page_4_business_pain",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "pain_map",
+  "diagram_mode": "mapping",
+  "preview_layout": [
+    {
+      "id": "page_4_business_pain_preview_1",
+      "label": "创作不稳",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_4_business_pain_preview_2",
+      "label": "生产不顺",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_4_business_pain_preview_3",
+      "label": "资产难沉淀",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_4_business_pain_preview_4",
+      "label": "后果",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "left",
+      "purpose": "业务痛点"
+    },
+    {
+      "name": "right",
+      "purpose": "后果链"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "创作不稳",
+      "zone": "left",
+      "body": "方向反复变化，世界观和角色难保持"
+    },
+    {
+      "title": "生产不顺",
+      "zone": "left",
+      "body": "多环节调度不透明，交付经常卡住"
+    },
+    {
+      "title": "资产难沉淀",
+      "zone": "left",
+      "body": "结果难以转化为长期复用资产"
+    },
+    {
+      "title": "后果",
+      "zone": "right",
+      "body": "返工、延迟、重复劳动、无法复制"
+    }
+  ],
+  "elements": []
+}

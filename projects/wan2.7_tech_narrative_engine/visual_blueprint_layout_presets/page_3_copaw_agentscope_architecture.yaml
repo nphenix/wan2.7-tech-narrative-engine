@@ -1,0 +1,27 @@
+# 与 PAGE_DEFINITIONS 中 page_3_copaw_agentscope_architecture 的 zones 对齐。
+# 画布正文须来自任务目录已定稿；regions / required_labels 勿原样贴图。
+page_id: page_3_copaw_agentscope_architecture
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: left
+    purpose: 用户入口
+    anchor: { x: 48, y: 100, w: 280, h: 640 }
+  - name: center
+    purpose: Copaw / AgentScope 双层结构
+    anchor: { x: 360, y: 100, w: 720, h: 640 }
+  - name: right
+    purpose: 六个项目 skill
+    anchor: { x: 1110, y: 100, w: 542, h: 640 }
+  - name: bottom
+    purpose: 能力说明与项目映射
+    anchor: { x: 48, y: 768, w: 1604, h: 172 }
+required_labels:
+  - Copaw
+  - AgentScope
+  - 六个项目 skill
+  - 技术 agent
+  - 叙事导演 agent
+notes: "[勿上屏] center 内上下分层画编排层与底座（用已定稿架构句）；bottom 写项目映射与角色。勿写英文 zone 名当主标题。"

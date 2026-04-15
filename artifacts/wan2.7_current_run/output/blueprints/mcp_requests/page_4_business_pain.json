@@ -1,0 +1,113 @@
+{
+  "page_id": "page_4_business_pain",
+  "session_id": "wan27_page_4_business_pain",
+  "execution_mode": "skill_driven_mcp",
+  "preferred_tool": "create_from_mermaid_then_refine",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "layout_template": "pain_map",
+  "diagram_mode": "mapping",
+  "visual_goal": "压缩真实业务问题，不做空泛叙述。",
+  "must_prove": "AI 短剧工厂的核心问题是创作、生产、沉淀三条链断裂。",
+  "preferred_structure": "2?3?4?6?7?8?9???",
+  "freestyle_pages": "1?4?10?11",
+  "font_notes": "???????????????????????????????",
+  "zones": [
+    {
+      "name": "left",
+      "purpose": "业务痛点"
+    },
+    {
+      "name": "right",
+      "purpose": "后果链"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "创作不稳",
+      "zone": "left",
+      "body": "方向反复变化，世界观和角色难保持"
+    },
+    {
+      "title": "生产不顺",
+      "zone": "left",
+      "body": "多环节调度不透明，交付经常卡住"
+    },
+    {
+      "title": "资产难沉淀",
+      "zone": "left",
+      "body": "结果难以转化为长期复用资产"
+    },
+    {
+      "title": "后果",
+      "zone": "right",
+      "body": "返工、延迟、重复劳动、无法复制"
+    }
+  ],
+  "required_labels": [
+    "创作不稳",
+    "生产不顺",
+    "资产难沉淀",
+    "返工",
+    "延迟"
+  ],
+  "required_relations": [
+    "创作不稳 -> 返工",
+    "生产不顺 -> 延迟",
+    "资产难沉淀 -> 无法复用"
+  ],
+  "drawing_instructions": [
+    "本页图种：pain_map",
+    "页面目标：AI 短剧工厂的核心问题是创作、生产、沉淀三条链断裂。",
+    "视觉目标：压缩真实业务问题，不做空泛叙述。",
+    "必须保留标签：创作不稳, 生产不顺, 资产难沉淀, 返工, 延迟",
+    "中文排版要求：???????????????????????????????",
+    "按问题到后果的映射画面组织，不要只摆并列卡片。",
+    "左侧是三类业务断裂点，右侧是返工、延迟、无法复用等后果。"
+  ],
+  "export_target": "output/blueprints/images/page_4_business_pain.svg",
+  "preview_layout": [
+    {
+      "id": "page_4_business_pain_preview_1",
+      "label": "创作不稳",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_4_business_pain_preview_2",
+      "label": "生产不顺",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_4_business_pain_preview_3",
+      "label": "资产难沉淀",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_4_business_pain_preview_4",
+      "label": "后果",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "draft_focus_terms": [],
+  "mermaid_path": "output/blueprints/mermaid/page_4_business_pain.mmd",
+  "mermaid_seed": "flowchart LR\n    N1[\"创作不稳\"]\n    N2[\"生产不顺\"]\n    N3[\"资产难沉淀\"]\n    N4[\"后果\"]\n"
+}

@@ -1,0 +1,19 @@
+# 与 common.pipeline.PAGE_DEFINITIONS 中 page_11_closing 的 zones 对齐（hero + footer）。
+# 诗句与主张须来自 sample/narrative 与 contracts 已定稿全文；勿把 hero/footer 或本 skill 任何句写入诗句区。
+page_id: page_11_closing
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: hero
+    purpose: 诗句与留白
+    anchor: { x: 100, y: 56, w: 1500, h: 620 }
+  - name: footer
+    purpose: 最终主张
+    anchor: { x: 100, y: 704, w: 1500, h: 220 }
+required_labels:
+  - Wan2.7
+  - 参与者
+  - 鲜衣怒马少年郎
+notes: "[勿上屏] 上区诗句留白、框内为定稿诗句全文；下区为定稿主张句。勿写 hero/footer/required_labels 等字进图。"

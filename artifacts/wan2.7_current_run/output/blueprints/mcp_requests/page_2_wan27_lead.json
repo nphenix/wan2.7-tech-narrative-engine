@@ -1,0 +1,116 @@
+{
+  "page_id": "page_2_wan27_lead",
+  "session_id": "wan27_page_2_wan27_lead",
+  "execution_mode": "skill_driven_mcp",
+  "preferred_tool": "create_from_mermaid_then_refine",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "layout_template": "capability_chain",
+  "diagram_mode": "capability_chain",
+  "visual_goal": "讲清 Wan2.7 如何牵引整条生成链。",
+  "must_prove": "Wan2.7 不是被动背景，而是图像和视频生成的直接牵引引擎。",
+  "preferred_structure": "2?3?4?6?7?8?9???",
+  "freestyle_pages": "1?4?10?11",
+  "font_notes": "???????????????????????????????",
+  "zones": [
+    {
+      "name": "left",
+      "purpose": "能力入口"
+    },
+    {
+      "name": "center",
+      "purpose": "图像和视频能力"
+    },
+    {
+      "name": "right",
+      "purpose": "兑现结果"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "能力入口",
+      "zone": "left",
+      "body": "Wan2.7 API"
+    },
+    {
+      "title": "图像能力",
+      "zone": "center",
+      "body": "wan2.7-image / wan2.7-image-pro"
+    },
+    {
+      "title": "视频能力",
+      "zone": "center",
+      "body": "wan2.7-i2v"
+    },
+    {
+      "title": "兑现结果",
+      "zone": "right",
+      "body": "静态视觉页与最终视频"
+    }
+  ],
+  "required_labels": [
+    "Wan2.7 API",
+    "wan2.7-image",
+    "wan2.7-image-pro",
+    "wan2.7-i2v"
+  ],
+  "required_relations": [
+    "Wan2.7 API -> wan2.7-image",
+    "Wan2.7 API -> wan2.7-image-pro",
+    "Wan2.7 API -> wan2.7-i2v"
+  ],
+  "drawing_instructions": [
+    "本页图种：capability_chain",
+    "页面目标：Wan2.7 不是被动背景，而是图像和视频生成的直接牵引引擎。",
+    "视觉目标：讲清 Wan2.7 如何牵引整条生成链。",
+    "必须保留标签：Wan2.7 API, wan2.7-image, wan2.7-image-pro, wan2.7-i2v",
+    "中文排版要求：???????????????????????????????",
+    "按左中右三段组织：能力入口、图像/视频能力、兑现结果。",
+    "能力关系可用连线，但信息重点是能力分区，不是箭头数量。"
+  ],
+  "export_target": "output/blueprints/images/page_2_wan27_lead.svg",
+  "preview_layout": [
+    {
+      "id": "page_2_wan27_lead_preview_1",
+      "label": "能力入口",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_2_wan27_lead_preview_2",
+      "label": "图像能力",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_2_wan27_lead_preview_3",
+      "label": "视频能力",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_2_wan27_lead_preview_4",
+      "label": "兑现结果",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "draft_focus_terms": [],
+  "mermaid_path": "output/blueprints/mermaid/page_2_wan27_lead.mmd",
+  "mermaid_seed": "flowchart LR\n    N1[\"能力入口\"]\n    N2[\"图像能力\"]\n    N3[\"视频能力\"]\n    N4[\"兑现结果\"]\n"
+}

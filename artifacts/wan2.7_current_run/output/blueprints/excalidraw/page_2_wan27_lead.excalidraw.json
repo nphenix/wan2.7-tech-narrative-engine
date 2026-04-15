@@ -1,0 +1,79 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_2_wan27_lead",
+  "page_id": "page_2_wan27_lead",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "capability_chain",
+  "diagram_mode": "capability_chain",
+  "preview_layout": [
+    {
+      "id": "page_2_wan27_lead_preview_1",
+      "label": "能力入口",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_2_wan27_lead_preview_2",
+      "label": "图像能力",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_2_wan27_lead_preview_3",
+      "label": "视频能力",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_2_wan27_lead_preview_4",
+      "label": "兑现结果",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "left",
+      "purpose": "能力入口"
+    },
+    {
+      "name": "center",
+      "purpose": "图像和视频能力"
+    },
+    {
+      "name": "right",
+      "purpose": "兑现结果"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "能力入口",
+      "zone": "left",
+      "body": "Wan2.7 API"
+    },
+    {
+      "title": "图像能力",
+      "zone": "center",
+      "body": "wan2.7-image / wan2.7-image-pro"
+    },
+    {
+      "title": "视频能力",
+      "zone": "center",
+      "body": "wan2.7-i2v"
+    },
+    {
+      "title": "兑现结果",
+      "zone": "right",
+      "body": "静态视觉页与最终视频"
+    }
+  ],
+  "elements": []
+}

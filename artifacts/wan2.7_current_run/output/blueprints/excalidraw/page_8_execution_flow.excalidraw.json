@@ -1,0 +1,66 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_8_execution_flow",
+  "page_id": "page_8_execution_flow",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "workflow_chain",
+  "diagram_mode": "workflow",
+  "preview_layout": [
+    {
+      "id": "page_8_execution_flow_preview_1",
+      "label": "自然语言任务",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_8_execution_flow_preview_2",
+      "label": "六技能执行链",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_8_execution_flow_preview_3",
+      "label": "人工审阅",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "top",
+      "purpose": "输入"
+    },
+    {
+      "name": "middle",
+      "purpose": "六技能执行链"
+    },
+    {
+      "name": "bottom",
+      "purpose": "闸门和交付"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "自然语言任务",
+      "zone": "top",
+      "body": "用户在 QwenPaw 中提出请求"
+    },
+    {
+      "title": "六技能执行链",
+      "zone": "middle",
+      "body": "intake -> strategy -> draft -> visual_blueprint -> visual_generation -> video_generation"
+    },
+    {
+      "title": "人工审阅",
+      "zone": "bottom",
+      "body": "strategy_gate / draft_gate / visual_blueprint_gate / visual_generation_gate / final_gate"
+    }
+  ],
+  "elements": []
+}

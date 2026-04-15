@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" data-source="lightweight-diagram">
+  <!-- svg-source:lightweight -->
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3a6ea5" />
+    </marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f7f73" />
+    </marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b7791f" />
+    </marker>
+    <marker id="arrow-rose" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8566d" />
+    </marker>
+    <marker id="arrow-soft" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5b6777" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" rx="28" fill="#f8f7f2" />
+  <g>
+  <rect x="36" y="146" width="152" height="224" rx="24" fill="#ffffff" stroke="#94a3b8" stroke-width="2.5" />
+  <rect x="52" y="158" width="126" height="34" rx="16" fill="#ffffff" />
+  <text x="115" y="175" fill="#5b6777" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" font-weight="800" text-anchor="middle" dominant-baseline="middle">输入</text>
+</g>
+<g>
+  <rect x="210" y="120" width="316" height="250" rx="24" fill="#ffffff" stroke="#94a3b8" stroke-width="2.5" />
+  <rect x="226" y="132" width="126" height="34" rx="16" fill="#ffffff" />
+  <text x="289" y="149" fill="#5b6777" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" font-weight="800" text-anchor="middle" dominant-baseline="middle">CoPaw 编排</text>
+</g>
+<g>
+  <rect x="550" y="146" width="186" height="224" rx="24" fill="#ffffff" stroke="#94a3b8" stroke-width="2.5" />
+  <rect x="566" y="158" width="126" height="34" rx="16" fill="#ffffff" />
+  <text x="629" y="175" fill="#5b6777" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" font-weight="800" text-anchor="middle" dominant-baseline="middle">草稿技能</text>
+</g>
+<g>
+  <rect x="760" y="120" width="332" height="250" rx="24" fill="#ffffff" stroke="#94a3b8" stroke-width="2.5" />
+  <rect x="776" y="132" width="126" height="34" rx="16" fill="#ffffff" />
+  <text x="839" y="149" fill="#5b6777" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" font-weight="800" text-anchor="middle" dominant-baseline="middle">Wan2.7 北京地域</text>
+</g>
+<g>
+  <rect x="66" y="236" width="92" height="64" rx="20" fill="#eaf2fb" stroke="#3a6ea5" stroke-width="2.5" />
+  <text x="112" y="268" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">主题输入</text>
+</g>
+<g>
+  <rect x="238" y="236" width="104" height="64" rx="20" fill="#eaf2fb" stroke="#3a6ea5" stroke-width="2.5" />
+  <text x="290" y="268" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">CoPaw</text>
+</g>
+<g>
+  <rect x="376" y="176" width="116" height="58" rx="20" fill="#e7f6f2" stroke="#2f7f73" stroke-width="2.5" />
+  <text x="434" y="205" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">技术角色</text>
+</g>
+<g>
+  <rect x="376" y="276" width="116" height="58" rx="20" fill="#fdecef" stroke="#b8566d" stroke-width="2.5" />
+  <text x="434" y="305" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">叙事角色</text>
+</g>
+<g>
+  <rect x="580" y="196" width="128" height="60" rx="20" fill="#e7f6f2" stroke="#2f7f73" stroke-width="2.5" />
+  <text x="644" y="226" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">草稿与蓝图</text>
+</g>
+<g>
+  <rect x="590" y="282" width="108" height="50" rx="20" fill="#fff4de" stroke="#b7791f" stroke-width="2.5" />
+  <text x="644" y="307" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">人工审校</text>
+</g>
+<g>
+  <rect x="794" y="170" width="122" height="60" rx="20" fill="#eaf2fb" stroke="#3a6ea5" stroke-width="2.5" />
+  <text x="855" y="200" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">二阶段出图</text>
+</g>
+<g>
+  <rect x="954" y="170" width="122" height="60" rx="20" fill="#fdecef" stroke="#b8566d" stroke-width="2.5" />
+  <text x="1015" y="200" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">三阶段视频</text>
+</g>
+<g>
+  <rect x="790" y="268" width="290" height="82" rx="16" fill="#fff4de" stroke="#b7791f" stroke-width="2.5" />
+  <text x="935" y="299.4" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">CoPaw 负责把事情讲清楚</text>
+<text x="935" y="318.59999999999997" fill="#1f2937" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">Wan2.7 负责图像与视频生成</text>
+</g>
+<g>
+  <line x1="158" y1="268" x2="238" y2="268" stroke="#3a6ea5" stroke-width="3" marker-end="url(#arrow-blue)" />
+  
+</g>
+<g>
+  <line x1="342" y1="268" x2="376" y2="205" stroke="#2f7f73" stroke-width="3" marker-end="url(#arrow-teal)" />
+  
+</g>
+<g>
+  <line x1="342" y1="268" x2="376" y2="305" stroke="#b8566d" stroke-width="3" marker-end="url(#arrow-rose)" />
+  
+</g>
+<g>
+  <line x1="492" y1="205" x2="580" y2="226" stroke="#2f7f73" stroke-width="3" marker-end="url(#arrow-teal)" />
+  
+</g>
+<g>
+  <line x1="492" y1="305" x2="580" y2="226" stroke="#b8566d" stroke-width="3" marker-end="url(#arrow-rose)" />
+  
+</g>
+<g>
+  <line x1="644" y1="256" x2="644" y2="282" stroke="#b7791f" stroke-width="3" marker-end="url(#arrow-amber)" />
+  
+</g>
+<g>
+  <line x1="698" y1="307" x2="794" y2="200" stroke="#3a6ea5" stroke-width="3" marker-end="url(#arrow-blue)" />
+  <text x="746" y="241.5" fill="#3a6ea5" font-family="Microsoft YaHei UI, Microsoft YaHei, PingFang SC, sans-serif" font-size="15" font-weight="800" text-anchor="middle" dominant-baseline="middle">通过后</text>
+</g>
+<g>
+  <line x1="916" y1="200" x2="954" y2="200" stroke="#b8566d" stroke-width="3" marker-end="url(#arrow-rose)" />
+  
+</g>
+</svg>

@@ -1,0 +1,9 @@
+﻿# Python
+**/__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# 鏈湴瀵嗛挜
+.env
+*.pem

@@ -1,0 +1,23 @@
+# 与 PAGE_DEFINITIONS 中 page_1_opening 的 zones 对齐；画幅 1700×980（与手迁 MCP SVG viewBox 同量级）。
+# 画布正文须来自任务目录 page_contracts / page_visual_specs 等已定稿；regions.name、purpose、required_labels 仅几何与验收参考，勿原样写入图内。
+page_id: page_1_opening
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: header
+    purpose: 主标题与副标题
+    anchor: { x: 80, y: 48, w: 1540, h: 160 }
+  - name: hero
+    purpose: Wan2.7 主视觉
+    anchor: { x: 80, y: 232, w: 1540, h: 480 }
+  - name: footer
+    purpose: 比赛对题主张
+    anchor: { x: 80, y: 736, w: 1540, h: 196 }
+required_labels:
+  - Wan2.7
+  - Copaw
+  - AI短剧工厂
+  - 项目 skill
+notes: "[勿上屏] 先铺三区矩形，再填入该页在 page_contracts、page_visual_specs 中已定稿的主副标题与主张；框内配色见 SKILL「设计令牌」。勿把本行或 YAML 键名写进图。"

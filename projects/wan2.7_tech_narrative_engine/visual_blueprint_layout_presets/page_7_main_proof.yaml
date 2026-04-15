@@ -1,0 +1,30 @@
+# 与 PAGE_DEFINITIONS 中 page_7_main_proof 的 zones 对齐（五分区 + 右侧 Wan2.7 外环）。
+# 画布正文须来自任务目录已定稿；五区为几何，勿用 bottom_left 等当主标题。
+page_id: page_7_main_proof
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: top
+    purpose: 业务目标层
+    anchor: { x: 48, y: 40, w: 1180, h: 140 }
+  - name: middle
+    purpose: 三层能力
+    anchor: { x: 48, y: 200, w: 1180, h: 200 }
+  - name: bottom_left
+    purpose: Copaw / AgentScope 双层底座
+    anchor: { x: 48, y: 420, w: 580, h: 500 }
+  - name: bottom_right
+    purpose: 六个项目 skill
+    anchor: { x: 648, y: 420, w: 580, h: 500 }
+  - name: right
+    purpose: Wan2.7 外部能力
+    anchor: { x: 1256, y: 40, w: 396, h: 880 }
+required_labels:
+  - AI短剧工厂
+  - Copaw
+  - AgentScope
+  - Wan2.7
+  - 六个项目 skill
+notes: "[勿上屏] 对标参考 PNG 信息密度；右侧条带写外环能力（已定稿）；各框多行论证句。勿写「须多行说明」类元语言进图。"

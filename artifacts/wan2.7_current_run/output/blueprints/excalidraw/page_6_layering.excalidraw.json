@@ -1,0 +1,66 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_6_layering",
+  "page_id": "page_6_layering",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "three_layer",
+  "diagram_mode": "layering",
+  "preview_layout": [
+    {
+      "id": "page_6_layering_preview_1",
+      "label": "创作中枢",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_6_layering_preview_2",
+      "label": "自动化生产工厂",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_6_layering_preview_3",
+      "label": "知识资产沉淀管理",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "top",
+      "purpose": "创作中枢"
+    },
+    {
+      "name": "middle",
+      "purpose": "自动化生产工厂"
+    },
+    {
+      "name": "bottom",
+      "purpose": "知识资产沉淀管理"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "创作中枢",
+      "zone": "top",
+      "body": "任务理解、方向判断、脚本与分镜组织"
+    },
+    {
+      "title": "自动化生产工厂",
+      "zone": "middle",
+      "body": "图像、视频与交付的标准化执行层"
+    },
+    {
+      "title": "知识资产沉淀管理",
+      "zone": "bottom",
+      "body": "模板、规则、案例与复盘的长期沉淀"
+    }
+  ],
+  "elements": []
+}

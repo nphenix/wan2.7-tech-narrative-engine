@@ -1,0 +1,110 @@
+{
+  "page_id": "page_8_execution_flow",
+  "session_id": "wan27_page_8_execution_flow",
+  "execution_mode": "skill_driven_mcp",
+  "preferred_tool": "create_from_mermaid_then_refine",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "layout_template": "workflow_chain",
+  "diagram_mode": "workflow",
+  "visual_goal": "显示清晰的状态推进与中间产物消费关系。",
+  "must_prove": "从自然语言任务到最终视频，必须有显式状态推进、闸门和正式中间产物。",
+  "preferred_structure": "2?3?4?6?7?8?9???",
+  "freestyle_pages": "1?4?10?11",
+  "font_notes": "???????????????????????????????",
+  "zones": [
+    {
+      "name": "top",
+      "purpose": "输入"
+    },
+    {
+      "name": "middle",
+      "purpose": "六技能执行链"
+    },
+    {
+      "name": "bottom",
+      "purpose": "闸门和交付"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "自然语言任务",
+      "zone": "top",
+      "body": "用户在 QwenPaw 中提出请求"
+    },
+    {
+      "title": "六技能执行链",
+      "zone": "middle",
+      "body": "intake -> strategy -> draft -> visual_blueprint -> visual_generation -> video_generation"
+    },
+    {
+      "title": "人工审阅",
+      "zone": "bottom",
+      "body": "strategy_gate / draft_gate / visual_blueprint_gate / visual_generation_gate / final_gate"
+    }
+  ],
+  "required_labels": [
+    "intake",
+    "strategy",
+    "draft",
+    "visual_blueprint",
+    "visual_generation",
+    "video_generation",
+    "人工审阅"
+  ],
+  "required_relations": [
+    "自然语言任务 -> intake",
+    "intake -> strategy",
+    "strategy -> draft",
+    "draft -> visual_blueprint",
+    "visual_blueprint -> visual_generation",
+    "visual_generation -> video_generation",
+    "人工审阅 -> visual_generation"
+  ],
+  "drawing_instructions": [
+    "本页图种：workflow_chain",
+    "页面目标：从自然语言任务到最终视频，必须有显式状态推进、闸门和正式中间产物。",
+    "视觉目标：显示清晰的状态推进与中间产物消费关系。",
+    "必须保留标签：intake, strategy, draft, visual_blueprint, visual_generation, video_generation, 人工审阅",
+    "中文排版要求：???????????????????????????????",
+    "本页必须画出从自然语言任务到最终交付的执行顺序。",
+    "明确标出人工审阅和闸门位置，不要省略中间状态。"
+  ],
+  "export_target": "output/blueprints/images/page_8_execution_flow.svg",
+  "preview_layout": [
+    {
+      "id": "page_8_execution_flow_preview_1",
+      "label": "自然语言任务",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_8_execution_flow_preview_2",
+      "label": "六技能执行链",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_8_execution_flow_preview_3",
+      "label": "人工审阅",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "draft_focus_terms": [],
+  "mermaid_path": "output/blueprints/mermaid/page_8_execution_flow.mmd",
+  "mermaid_seed": "flowchart LR\n    N1[\"自然语言任务\"]\n    N2[\"六技能执行链\"]\n    N3[\"人工审阅\"]\n"
+}

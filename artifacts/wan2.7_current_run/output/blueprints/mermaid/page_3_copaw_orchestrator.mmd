@@ -1,0 +1,19 @@
+flowchart LR
+    N1["用户对话入口"]
+    N2["QwenPaw 编排层"]
+    N3["技术 Agent"]
+    N4["叙事导演 Agent"]
+    N5["Skill 1"]
+    N6["人工审阅闸门"]
+    N7["Skill 2"]
+    N8["Skill 3"]
+    N9["产物归档层"]
+    N1 --> N2
+    N2 --> N3
+    N2 --> N4
+    N3 --> N5
+    N4 --> N5
+    N5 --> N6
+    N6 --> N7
+    N7 --> N8
+    N8 --> N9

@@ -1,0 +1,19 @@
+# 与 PAGE_DEFINITIONS 中 page_6_capability_layers 的 zones 对齐。
+# 画布正文须来自任务目录已定稿；regions / required_labels 勿原样贴图。
+page_id: page_6_capability_layers
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: left
+    purpose: 三类价值
+    anchor: { x: 60, y: 120, w: 420, h: 780 }
+  - name: right
+    purpose: 三层能力映射
+    anchor: { x: 520, y: 120, w: 1120, h: 780 }
+required_labels:
+  - 创作中枢
+  - 自动化生产工厂
+  - 知识资产沉淀管理
+notes: "[勿上屏] right 内纵向三块写三层能力（已定稿动作与结果）；left 列写价值侧；箭头承接。勿把「left/right」英文写进观众区。"

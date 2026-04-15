@@ -1,0 +1,79 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_1_opening",
+  "page_id": "page_1_opening",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "hero_opening",
+  "diagram_mode": "hero",
+  "preview_layout": [
+    {
+      "id": "page_1_opening_preview_1",
+      "label": "主标题",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_1_opening_preview_2",
+      "label": "副标题",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_1_opening_preview_3",
+      "label": "能力底座",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_1_opening_preview_4",
+      "label": "主张",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "header",
+      "purpose": "标题和副标题"
+    },
+    {
+      "name": "hero",
+      "purpose": "Wan2.7 主视觉"
+    },
+    {
+      "name": "footer",
+      "purpose": "一句话主张"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "主标题",
+      "zone": "header",
+      "body": "QwenPaw 驱动的 Wan2.7 技术叙事引擎"
+    },
+    {
+      "title": "副标题",
+      "zone": "header",
+      "body": "面向 AI 短剧工厂：创作中枢 · 自动化生产工厂 · 知识资产沉淀"
+    },
+    {
+      "title": "能力底座",
+      "zone": "hero",
+      "body": "Wan2.7"
+    },
+    {
+      "title": "主张",
+      "zone": "footer",
+      "body": "QwenPaw 编排 + Wan2.7 API；闸门可审阅，skill 可复用"
+    }
+  ],
+  "elements": []
+}

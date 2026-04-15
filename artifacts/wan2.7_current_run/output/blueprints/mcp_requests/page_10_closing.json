@@ -1,0 +1,81 @@
+{
+  "page_id": "page_10_closing",
+  "session_id": "wan27_page_10_closing",
+  "execution_mode": "skill_driven_mcp",
+  "preferred_tool": "add_elements",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "layout_template": "closing_manifesto",
+  "diagram_mode": "closing",
+  "visual_goal": "用诗句和宣言完成作品收束。",
+  "must_prove": "作品最终必须收束到参与者宣言，不提前泄露完整诗句。",
+  "preferred_structure": "2?3?4?6?7?8?9???",
+  "freestyle_pages": "1?4?10?11",
+  "font_notes": "???????????????????????????????",
+  "zones": [
+    {
+      "name": "hero",
+      "purpose": "诗句和视觉收束"
+    },
+    {
+      "name": "footer",
+      "purpose": "最终口号"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "诗句",
+      "zone": "hero",
+      "body": "湛湛长空，乱云飞渡，吹尽繁红无数。正当年，紫金空铄，万里黄沙无处。沉江望极，狂澜乍起，惊飞一滩鸥鹭。鲜衣怒马少年郎，不负昭华行且知。"
+    },
+    {
+      "title": "收束语",
+      "zone": "footer",
+      "body": "成为 AI 时代的参与者"
+    }
+  ],
+  "required_labels": [
+    "成为 AI 时代的参与者",
+    "鲜衣怒马少年郎"
+  ],
+  "required_relations": [
+    "诗句 -> 参与者宣言",
+    "参与者宣言 -> 成为 AI 时代的参与者"
+  ],
+  "drawing_instructions": [
+    "本页图种：closing_manifesto",
+    "页面目标：作品最终必须收束到参与者宣言，不提前泄露完整诗句。",
+    "视觉目标：用诗句和宣言完成作品收束。",
+    "必须保留标签：成为 AI 时代的参与者, 鲜衣怒马少年郎",
+    "中文排版要求：???????????????????????????????",
+    "采用强留白收束页，重点是诗句和最终宣言。",
+    "不要把本页画成结构图，保持结尾氛围和阅读节奏。"
+  ],
+  "export_target": "output/blueprints/images/page_10_closing.svg",
+  "preview_layout": [
+    {
+      "id": "page_10_closing_preview_1",
+      "label": "诗句",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_10_closing_preview_2",
+      "label": "收束语",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "draft_focus_terms": []
+}

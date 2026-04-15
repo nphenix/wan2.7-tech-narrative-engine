@@ -1,0 +1,23 @@
+# 与 PAGE_DEFINITIONS 中 page_2_wan27_api 的 zones 对齐。
+# 画布正文须来自任务目录已定稿；regions / required_labels 勿原样当标题贴图。
+page_id: page_2_wan27_api
+canvas:
+  width: 1700
+  height: 980
+  view_box: "0 0 1700 980"
+regions:
+  - name: left
+    purpose: 图像能力簇
+    anchor: { x: 60, y: 120, w: 760, h: 560 }
+  - name: right
+    purpose: 视频能力簇
+    anchor: { x: 880, y: 120, w: 760, h: 560 }
+  - name: bottom
+    purpose: 项目落点映射
+    anchor: { x: 60, y: 720, w: 1580, h: 220 }
+required_labels:
+  - Wan2.7 API
+  - 图像能力
+  - 视频能力
+  - 项目落点
+notes: "[勿上屏] 上沿可留页内标题（用叙事标题，勿写 page_id）；左右簇填已定稿能力点；底部落点与上游生成环节对齐。勿把 skill 名或文件名写进图。"

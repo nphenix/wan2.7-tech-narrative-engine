@@ -1,0 +1,48 @@
+{
+  "project": "wan2.7_tech_narrative_engine",
+  "updated_at": "2026-04-12T00:00:00+08:00",
+  "research_order": [
+    "repo",
+    "web",
+    "user"
+  ],
+  "terms": [
+    {
+      "term": "Wan2.7",
+      "definition": "本项目中的多模态生成能力底座，用于承接图像与视频生成兑现，不应被画成模糊背景词。",
+      "status": "needs_user_confirmation",
+      "repo_source_ids": [
+        "doc_project_prereseach",
+        "sample_technical"
+      ],
+      "external_sources": [],
+      "user_confirmed": false,
+      "notes": "项目内口径优先于通用外部说法，进入下游前仍需用户确认。"
+    },
+    {
+      "term": "CoPaw",
+      "definition": "本项目中的编排中枢，负责组织 Agent、Skill、人工审阅闸门和产物归档，不应被简化成单次脚本。",
+      "status": "needs_user_confirmation",
+      "repo_source_ids": [
+        "doc_project_prereseach",
+        "sample_technical"
+      ],
+      "external_sources": [],
+      "user_confirmed": false,
+      "notes": "架构图中的位置和职责必须与用户逐页核对。"
+    },
+    {
+      "term": "AgentScope",
+      "definition": "本项目中的生态与复用视角承接点，用来解释项目如何从单点方案延展为可复用体系。",
+      "status": "needs_user_confirmation",
+      "repo_source_ids": [
+        "doc_project_prereseach",
+        "sample_technical",
+        "sample_narrative"
+      ],
+      "external_sources": [],
+      "user_confirmed": false,
+      "notes": "不能用外部框架定义直接替代项目内语义。"
+    }
+  ]
+}

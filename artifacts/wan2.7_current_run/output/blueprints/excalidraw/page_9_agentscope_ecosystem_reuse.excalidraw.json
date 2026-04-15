@@ -1,0 +1,83 @@
+{
+  "type": "excalidraw_scene",
+  "session_id": "wan27_page_9_agentscope_ecosystem_reuse",
+  "page_id": "page_9_agentscope_ecosystem_reuse",
+  "style_preset": "hand_drawn_excalidraw",
+  "layout_template": "ecosystem",
+  "diagram_mode": "ecosystem",
+  "preview_layout": [
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_1",
+      "label": "AgentScope",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_2",
+      "label": "QwenPaw 连接",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_3",
+      "label": "Wan2.7 连接",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_9_agentscope_ecosystem_reuse_preview_4",
+      "label": "复用价值",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "zones": [
+    {
+      "name": "center",
+      "purpose": "AgentScope"
+    },
+    {
+      "name": "left",
+      "purpose": "QwenPaw 连接"
+    },
+    {
+      "name": "right",
+      "purpose": "Wan2.7 连接"
+    },
+    {
+      "name": "bottom",
+      "purpose": "复用价值"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "AgentScope",
+      "zone": "center",
+      "body": "生态对象和扩展视角"
+    },
+    {
+      "title": "QwenPaw 连接",
+      "zone": "left",
+      "body": "工作区级编排和多智能体组织"
+    },
+    {
+      "title": "Wan2.7 连接",
+      "zone": "right",
+      "body": "多模态能力表达和生成牵引"
+    },
+    {
+      "title": "复用价值",
+      "zone": "bottom",
+      "body": "生态传播、教学表达和后续扩展"
+    }
+  ],
+  "elements": []
+}

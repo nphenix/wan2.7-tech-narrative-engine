@@ -1,0 +1,200 @@
+{
+  "page_id": "page_3_copaw_orchestrator",
+  "session_id": "wan27_page_3_copaw_orchestrator",
+  "execution_mode": "skill_driven_mcp",
+  "preferred_tool": "create_from_mermaid_then_refine",
+  "style_preset": "hand_drawn_excalidraw",
+  "style": {
+    "strokeColor": "#1f2937",
+    "backgroundColor": "#fff8ef",
+    "fillStyle": "hachure",
+    "strokeWidth": 2,
+    "roughness": 1,
+    "fontSize": 22
+  },
+  "layout_template": "hub_architecture",
+  "diagram_mode": "architecture",
+  "visual_goal": "用结构图证明 QwenPaw 的真实编排作用。",
+  "must_prove": "QwenPaw 作为基于 AgentScope 的上层工作站化编排承载，结合项目内六个 skill 形成可调度、可审阅、可归档的实现链路，而不是单次脚本调用。",
+  "preferred_structure": "2?3?4?6?7?8?9???",
+  "freestyle_pages": "1?4?10?11",
+  "font_notes": "???????????????????????????????",
+  "zones": [
+    {
+      "name": "top",
+      "purpose": "用户输入"
+    },
+    {
+      "name": "center",
+      "purpose": "编排中枢"
+    },
+    {
+      "name": "left",
+      "purpose": "Agent 协作"
+    },
+    {
+      "name": "right",
+      "purpose": "Skill 执行链"
+    },
+    {
+      "name": "bottom",
+      "purpose": "归档与结果"
+    }
+  ],
+  "module_cards": [
+    {
+      "title": "用户对话入口",
+      "zone": "top",
+      "body": "自然语言触发任务"
+    },
+    {
+      "title": "QwenPaw 编排层",
+      "zone": "center",
+      "body": "工作区级技能装配器与总编排器"
+    },
+    {
+      "title": "技术 Agent",
+      "zone": "left",
+      "body": "提供技术骨架与结构约束"
+    },
+    {
+      "title": "叙事导演 Agent",
+      "zone": "left",
+      "body": "提供叙事包装与表达节奏"
+    },
+    {
+      "title": "Skill 1",
+      "zone": "right",
+      "body": "文案、页面契约、分镜草案"
+    },
+    {
+      "title": "人工审阅闸门",
+      "zone": "right",
+      "body": "进入昂贵生成前的人工批准"
+    },
+    {
+      "title": "Skill 2",
+      "zone": "right",
+      "body": "静态视觉资产生成"
+    },
+    {
+      "title": "Skill 3",
+      "zone": "right",
+      "body": "图生视频与交付材料组装"
+    },
+    {
+      "title": "产物归档层",
+      "zone": "bottom",
+      "body": "图片、视频、文档和元数据"
+    }
+  ],
+  "required_labels": [
+    "用户对话入口",
+    "QwenPaw 编排层",
+    "技术 Agent",
+    "叙事导演 Agent",
+    "Skill 1",
+    "人工审阅闸门",
+    "Skill 2",
+    "Skill 3",
+    "产物归档层"
+  ],
+  "required_relations": [
+    "用户对话入口 -> QwenPaw 编排层",
+    "QwenPaw 编排层 -> 技术 Agent",
+    "QwenPaw 编排层 -> 叙事导演 Agent",
+    "技术 Agent -> Skill 1",
+    "叙事导演 Agent -> Skill 1",
+    "Skill 1 -> 人工审阅闸门",
+    "人工审阅闸门 -> Skill 2",
+    "Skill 2 -> Skill 3",
+    "Skill 3 -> 产物归档层"
+  ],
+  "drawing_instructions": [
+    "本页图种：hub_architecture",
+    "页面目标：QwenPaw 作为基于 AgentScope 的上层工作站化编排承载，结合项目内六个 skill 形成可调度、可审阅、可归档的实现链路，而不是单次脚本调用。",
+    "视觉目标：用结构图证明 QwenPaw 的真实编排作用。",
+    "必须保留标签：用户对话入口, QwenPaw 编排层, 技术 Agent, 叙事导演 Agent, Skill 1, 人工审阅闸门, Skill 2, Skill 3, 产物归档层",
+    "中文排版要求：???????????????????????????????",
+    "必须画出用户入口、QwenPaw 编排层、技术 Agent、叙事导演 Agent、Skill 链和人工审阅闸门。",
+    "把 QwenPaw 编排层放在画面中心，左右展开 Agent 与 Skill，底部保留归档层。"
+  ],
+  "export_target": "output/blueprints/images/page_3_copaw_orchestrator.svg",
+  "preview_layout": [
+    {
+      "id": "page_3_copaw_orchestrator_preview_1",
+      "label": "用户对话入口",
+      "x": 120,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_2",
+      "label": "QwenPaw 编排层",
+      "x": 490,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_3",
+      "label": "技术 Agent",
+      "x": 860,
+      "y": 180,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_4",
+      "label": "叙事导演 Agent",
+      "x": 120,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_5",
+      "label": "Skill 1",
+      "x": 490,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_6",
+      "label": "人工审阅闸门",
+      "x": 860,
+      "y": 370,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_7",
+      "label": "Skill 2",
+      "x": 120,
+      "y": 560,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_8",
+      "label": "Skill 3",
+      "x": 490,
+      "y": 560,
+      "width": 280,
+      "height": 110
+    },
+    {
+      "id": "page_3_copaw_orchestrator_preview_9",
+      "label": "产物归档层",
+      "x": 860,
+      "y": 560,
+      "width": 280,
+      "height": 110
+    }
+  ],
+  "draft_focus_terms": [],
+  "mermaid_path": "output/blueprints/mermaid/page_3_copaw_orchestrator.mmd",
+  "mermaid_seed": "flowchart LR\n    N1[\"用户对话入口\"]\n    N2[\"QwenPaw 编排层\"]\n    N3[\"技术 Agent\"]\n    N4[\"叙事导演 Agent\"]\n    N5[\"Skill 1\"]\n    N6[\"人工审阅闸门\"]\n    N7[\"Skill 2\"]\n    N8[\"Skill 3\"]\n    N9[\"产物归档层\"]\n    N1 --> N2\n    N2 --> N3\n    N2 --> N4\n    N3 --> N5\n    N4 --> N5\n    N5 --> N6\n    N6 --> N7\n    N7 --> N8\n    N8 --> N9\n"
+}
