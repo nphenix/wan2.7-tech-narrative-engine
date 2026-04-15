@@ -2,6 +2,8 @@
 
 本目录为作品与复现材料的**自包含快照**（由主仓库 `scripts/sync_wan27_competition_bundle.ps1` 生成）。以下为各路径用途说明。
 
+**仓库根目录**另有 **`Wan2.7技术叙事引擎_比赛提交说明_2026-04-15.md`**（与 `submission_docs/02_项目/` 下为同文，便于在 GitHub 根目录直接打开）。
+
 ---
 
 ## `submission_docs/`
